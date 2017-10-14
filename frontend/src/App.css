@@ -1,0 +1,311 @@
+.app-header {
+  text-align: center;
+  font-size: x-large;
+  background-color: #001381;
+  padding: 20px;
+  color: #f8f8f8;
+}
+
+.content-header {
+  min-height: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.categ-list {
+  font-size: 1rem;
+}
+
+.categ-list-item {
+  display: list-item;
+  table-layout: fixed;
+  list-style-type: none;
+  list-style-position: outside;
+  padding: 0.25rem 0;
+  line-height: 1.25;
+  transition: 0.1s color ease;
+  color: rgba(0,0,0,.4);
+  cursor: pointer;
+  text-decoration: none;
+  width: 10px;
+  margin-left: 1rem;
+}
+
+.categ-list-link {
+  text-decoration: none;
+}
+
+.categ-list-link:hover {
+  color: rgba(0,0,0,0.6);
+}
+
+.categ-list-link:visited {
+  color: rgb(0,0,0);
+}
+
+.post-list-item {
+  display: list-item;
+  table-layout: fixed;
+  list-style-type: none;
+  list-style-position: outside;
+  padding: 0.25rem 0;
+  line-height: 1.25;
+  transition: 0.1s color ease;
+  color: rgb(0,0,0);
+  text-decoration: none;
+  width: 50%;
+  margin: 1rem 1rem;
+  border-bottom: 1px rgb(141, 141, 141) solid;
+}
+
+.comment-list-item {
+  display: list-item;
+  table-layout: fixed;
+  list-style-type: none;
+  list-style-position: outside;
+  padding: 0.25rem 0;
+  line-height: 1.25;
+  transition: 0.1s color ease;
+  color: rgb(0,0,0);
+  text-decoration: none;
+  width: 50%;
+  margin: 1rem 1rem;
+  border-bottom: 1px rgb(141, 141, 141) solid;
+}
+
+.icon-btn {
+  background: none;
+  border:none;
+  cursor: pointer;
+  outline: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.modal {
+  position: absolute;
+  top: 80px;
+  left: 500px;
+  right: 500px;
+  border: 1px solid rgb(204, 204, 204);
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  border-radius: 0.25rem;
+  outline: none;
+  padding: 20px;
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,.24), 0 3px 12px 0 rgba(0,0,0,.12);
+  min-width: 500px;
+}
+
+.btn {
+  color: #fff;
+  background: #868e96;
+  border-color: #868e96;
+  display: inline-block;
+  text-align: center;
+  border-radius: 0.25rem;
+  border: 1px solid transparent;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25;
+  transition: all 0.15s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #727b84;
+  border-color: #6c757d;
+}
+
+.btn-submit {
+  background: #007bff;
+  border-color: #007bff;
+}
+
+.btn-submit:hover {
+  background: #0069d9;
+  border-color: #0062cc;
+}
+
+.form-modal .form-group {
+  margin-bottom: 1rem;
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+}
+
+.form-modal label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  color: #212529;
+}
+
+.form-modal input {
+  display: block;
+  width: 90%;
+  padding: 0.5rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: .25rem;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.form-modal textarea {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: .25rem;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.form-modal select {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: .25rem;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.sort-panel {
+  margin: 0.5rem 0 1rem 0;
+}
+
+.sort-panel button {
+  margin-right: 0.35rem;
+}
+
+.sort-panel-title {
+  margin: 0 0.5rem;
+}
+
+.div-btn-organizer button {
+  margin-right: 0.35rem;
+}
+
+.new-object {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+}
+
+.new-object:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.post-resume-title {
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.post-resume-title:hover {
+  color: rgba(0,0,0,0.6);
+}
+
+.post-resume-title:visited {
+  color: rgb(0,0,0);
+}
+
+.post-resume-author {
+  margin: 0.5rem 0 0 1rem;
+}
+
+.post-resume-author-name {
+  text-decoration: underline;
+}
+
+.post-resume-author-date {
+  font-style: italic;
+  color: rgb(99, 99, 99);
+  font-size: 0.85rem;
+}
+
+.post-resume-categ {
+  margin: 0.5rem 0 0 1rem;
+}
+
+.post-resume-comments {
+  margin: 0.5rem 0 0 1rem;
+}
+
+.post-resume-vote {
+  margin: 0.5rem 0 0 1rem;
+}
+
+.post-body {
+  margin: 1rem 0 1rem 1rem;
+}
+
+.post-score {
+  margin: 0.5rem 0 0 1rem;
+}
+
+.post-btn-container {
+  margin: 0.5rem 0 0 0.5rem;
+}
+
+.comment-body {
+  margin: 0.5rem 0 0 0rem;
+}
+
+.comment-author {
+  margin: 0.5rem 0 0 0rem;
+}
+
+.comment-author-name {
+  text-decoration: underline;
+}
+
+.comment-author-date {
+  font-style: italic;
+  color: rgb(99, 99, 99);
+  font-size: 0.85rem;
+}
+
+.comment-score {
+  margin: 0.5rem 0;
+}
+
+.not-found {
+  margin: 1rem;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.home-link {
+  text-align: center;
+}
+
+.home-btn:visited {
+  color: rgb(0,0,0);
+}
+
+.home-btn:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.container {
+  margin: 1.5rem 0 0 1.5rem; 
+}
